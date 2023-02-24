@@ -36,7 +36,7 @@ struct ChannelListResponse {
 
 #[get("/api/channels")]
 async fn get_channels() -> impl Responder {
-    let api_key = "AIzaSyDmF_yW-GHYdyTc9kuYMeBp-Ptm0UqE-5g";
+    let api_key = "";//removed api key insert
     let username = "mrbeast";
     // let url = format!("https://www.googleapis.com/youtube/v3/channels?part=snippet&forUsername={}&key={}", username, api_key);
 
